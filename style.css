@@ -41,3 +41,17 @@ h2{
             /*http://blog.teamtreehouse.com/css-filter-effects*/
             -webkit-filter: blur(6px);
 }
+.label{
+    font-size: 25px;
+}
+.red{ 
+    color:red;
+}
+#riot{
+    width: 300px;
+    height: 200px;
+    float: right;
+    position: relative;
+    
+    /*margin: 20px 0px 0px 0px ;*/
+}
