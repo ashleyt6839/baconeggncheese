@@ -1,15 +1,43 @@
 h1{
     font-family: 'Ceviche One', cursive;
     text-align: center;
-    font-size: 90px;
+    font-size: 120px;
     color: red;
+    /*font-family: 'Anton', sans-serif;*/
 }
 
 #description{
-    text-align: center;
-   font-family: 'Covered By Your Grace', cursive;
-   font-size: 30px;
+    text-align: left;
+   /*font-family: 'Covered By Your Grace', cursive;*/
+   font-size: 35px;
+   font-family: 'Montserrat', sans-serif;
 }
 body{
-    background-image: url("bec.png");
+    /*background-image: url("bec.png");*/
+}
+h2{
+    font-size: 45px;
+    font-family: 'Anton', sans-serif;
+    color: red;
+}
+#bg {
+    height: 110%;
+            width: 105%;
+            position: fixed;
+            top: -15px;
+            left: -15px;
+            z-index: -1;
+            background: linear-gradient( 
+            /*top*/
+            rgba(0, 0, 0, 0.0), 
+            /*bottom*/
+            rgba(0, 0, 0, 0.0)), 
+            /*URL*/
+            url(
+            'bec.png'
+            );
+            background-size: auto;
+            /* put any filters below */
+            /*http://blog.teamtreehouse.com/css-filter-effects*/
+            -webkit-filter: blur(6px);
 }
