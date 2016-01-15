@@ -3,7 +3,13 @@ h1{
     text-align: center;
     font-size: 120px;
     color: red;
+    transition-delay: 1s;
+    transition:background 2s;
     /*font-family: 'Anton', sans-serif;*/
+}
+
+h1:hover{
+    background: #9933ff;
 }
 
 #description{
