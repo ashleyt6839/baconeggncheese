@@ -6,6 +6,7 @@ h1{
     transition-delay: 1s;
     transition:background 2s;
     /*font-family: 'Anton', sans-serif;*/
+    transform: ;
 }
 
 h1:hover{
@@ -52,6 +53,7 @@ h2{
 }
 .red{ 
     color:red;
+    text-shadow: 2px 2px #000000;
 }
 #riot{
     width: 600px;
