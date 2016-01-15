@@ -4,6 +4,7 @@ h1{
     font-size: 120px;
     color: red;
     /*font-family: 'Anton', sans-serif;*/
+    transform: ;
 }
 
 #description{
@@ -46,6 +47,7 @@ h2{
 }
 .red{ 
     color:red;
+    text-shadow: 2px 2px #000000;
 }
 #riot{
     width: 600px;
