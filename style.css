@@ -17,7 +17,9 @@ h1{
 }
 h1:hover{
     background: #9933ff;
-   
+
+    /*when mouse is over background changes*/
+
 }
 
 #description{
@@ -32,8 +34,8 @@ body{
 h2{
     font-size: 45px;
     font-family: 'Anton', sans-serif;
-    color: red;
 }
+
 #bg {
     height: 110%;
             width: 105%;
