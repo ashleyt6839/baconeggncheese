@@ -66,6 +66,10 @@ h2{
 .red{ 
     color:red;
     text-shadow: 2px 2px #000000;
+    transition: transform 3s;
+}
+.red:hover{
+    transform: rotate(360deg);
 }
 #riot{
     width: 600px;
