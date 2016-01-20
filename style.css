@@ -33,6 +33,9 @@ body{
 }
 h2{
     font-size: 45px;
+    background: -webkit-linear-gradient(red,black);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
     font-family: 'Anton', sans-serif;
 }
 
