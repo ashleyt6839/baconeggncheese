@@ -16,11 +16,10 @@ h1{
     to {left: 0px;}
 }
 /* Set the beginning point and end point of the animation "from" and "to"*/
+
 h1:hover{
     background: #9933ff;
-
-    /*when mouse is over background changes*/
-
+/*when the mouse is over the title the background changes to a different color*/
 }
 
 #description{
@@ -69,11 +68,11 @@ h2{
     color:red;
     text-shadow: 2px 2px #000000;
     transition: transform 3s;
-    /*amount of time it takes to spin*/
+    /*its sets the word to theamount of time it takes to spin*/
 }
 .red:hover{
     transform: rotate(360deg);
-    /*when hovered over these words spin*/
+    /*when hovered over by the mouse  these words spin*/
 }
 #riot{
     width: 600px;
