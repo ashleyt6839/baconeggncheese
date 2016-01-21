@@ -11,9 +11,11 @@ h1{
     /* declared an animation and named it "myslide" set its duration for 5 seconds */
 }
 
+
 @keyframes myslide {
-    from {left: -1400px;}
-    to {left: 0px;}
+
+    from {right:1400px;} /*push 1400 pixels from right edge */
+    to {right: 0px;} /*push 0 pixels to the right edge*/
 }
 /* Set the beginning point and end point of the animation "from" and "to"*/
 
