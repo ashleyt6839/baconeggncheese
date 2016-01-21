@@ -10,12 +10,7 @@ h1{
      animation: myslide 5s; 
     /* declared an animation and named it "myslide" set its duration for 5 seconds */
 }
-
-
-
-
 /* Set the beginning point and end point of the animation "from" and "to"*/
-
 @keyframes myslide {
 
     from {right:1400px;} /*push 1400 pixels from right edge */
