@@ -33,7 +33,8 @@ body{
 }
 h2{
     font-size: 45px;
-    background: -webkit-linear-gradient(red,black);
+    background: -webkit-linear-gradient(red,black); 
+    /*makes text 'ombre' color*/
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; 
     font-family: 'Anton', sans-serif;
@@ -67,9 +68,11 @@ h2{
     color:red;
     text-shadow: 2px 2px #000000;
     transition: transform 3s;
+    /*amount of time it takes to spin*/
 }
 .red:hover{
     transform: rotate(360deg);
+    /*when hovered over these words spin*/
 }
 #riot{
     width: 600px;
