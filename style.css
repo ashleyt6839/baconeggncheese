@@ -7,14 +7,15 @@ h1{
     transition:background 2s;
     position: relative;
     /*font-family: 'Anton', sans-serif;*/
-     animation: mymove 5s; 
-    
+     animation: myslide 5s; 
+    /* declared an animation and named it "myslide" set its duration for 5 seconds */
 }
 
-@keyframes mymove {
+@keyframes myslide {
     from {left: -1400px;}
     to {left: 0px;}
 }
+/* Set the beginning point and end point of the animation "from" and "to"*/
 h1:hover{
     background: #9933ff;
 
