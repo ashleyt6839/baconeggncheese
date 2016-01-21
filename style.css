@@ -7,12 +7,8 @@ h1{
     transition:background 2s;
     position: relative;
     /*font-family: 'Anton', sans-serif;*/
-     animation: myslide 5s; 
-    /* declared an animation and named it "myslide" set its duration for 5 seconds */
+     animation: myslide 5s; /* declared an animation and named it "myslide" set its duration for 5 seconds */
 }
-
-
-
 
 /* Set the beginning point and end point of the animation "from" and "to"*/
 
@@ -22,10 +18,9 @@ h1{
     to {right: 0px;} /*push 0 pixels to the right edge*/
 }
 
-
+/*when the mouse is over the title the background changes to a different color*/
 h1:hover{
     background: #9933ff;
-/*when the mouse is over the title the background changes to a different color*/
 }
 
 #description{
@@ -73,12 +68,12 @@ h2{
 .red{ 
     color:red;
     text-shadow: 2px 2px #000000;
-    transition: transform 3s;
-    /*its sets the word to the amount of time it takes to spin*/
+    transition: transform 3s; /*its sets the word to the amount of time it takes to spin*/
+
 }
 .red:hover{
-    transform: rotate(360deg);
-    /*when hovered over by the mouse  these words spin*/
+    transform: rotate(360deg); /*when hovered over by the mouse  these words spin*/
+    
 }
 #riot{
     width: 600px;
