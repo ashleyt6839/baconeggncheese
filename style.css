@@ -12,12 +12,16 @@ h1{
 }
 
 
+
+
+/* Set the beginning point and end point of the animation "from" and "to"*/
+
 @keyframes myslide {
 
     from {right:1400px;} /*push 1400 pixels from right edge */
     to {right: 0px;} /*push 0 pixels to the right edge*/
 }
-/* Set the beginning point and end point of the animation "from" and "to"*/
+
 
 h1:hover{
     background: #9933ff;
@@ -70,7 +74,7 @@ h2{
     color:red;
     text-shadow: 2px 2px #000000;
     transition: transform 3s;
-    /*its sets the word to theamount of time it takes to spin*/
+    /*its sets the word to the amount of time it takes to spin*/
 }
 .red:hover{
     transform: rotate(360deg);
